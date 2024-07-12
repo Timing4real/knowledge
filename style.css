@@ -236,7 +236,7 @@
 .body-container {
     display: flex;
     width: 1400px;
-    height: auto;
+    height: 50em;
     justify-content: space-between;
     background-image: url("images/engr.jpg");
     background-repeat: no-repeat;
@@ -247,7 +247,7 @@
     height: 300px;
     width: 500px;
     margin-left: 12%;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .big-letters {
@@ -269,7 +269,7 @@
     height: 500px;
     width: 350px;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 12%;
     margin-right: 17%;
     background-color: black;
     opacity: 0.4;
