@@ -25,7 +25,7 @@
 .icons {
     margin-top: 0.5%;
     display: flex;
-    height: 25px;
+    height: auto;
     width: 250px;
     justify-content: space-around; 
     margin-right: -4%;
@@ -236,7 +236,7 @@
 .body-container {
     display: flex;
     width: 1400px;
-    height: 700px;
+    height: auto;
     justify-content: space-between;
     background-image: url("images/engr.jpg");
     background-repeat: no-repeat;
@@ -247,21 +247,22 @@
     height: 300px;
     width: 500px;
     margin-left: 12%;
-    margin-top: 14%;
+    margin-top: 10%;
 }
 
 .big-letters {
-    height: 100px;
-    width: 400px;
-    margin-right: 2%;
+    height: 80px;
+    width: 350px;
     color: yellow;
 }
 
 .small-letters {
-    height: 80px;
-    width: 400px;
-    text-align: left;
-    color: yellow;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 20%;
+    shape-outside: circle(50% at 50%);
+    clip-path: circle(50% at 50%);
 }
 
 .the-quotes {
@@ -298,8 +299,7 @@ input {
 }
 
 .message {
-    height: 60px;
-    text-align-last: left;
+    height: 70px;
 }
 
 .request {
@@ -312,4 +312,28 @@ input {
     text-align: center;
     padding-top: 3%;
     border-radius: 1cap;
+}
+
+@media (min-width: 475px 640px 768px 1028px 1280px 1536px) {
+    .logos-navigation-bar {
+        display: flex;
+    }
+}
+
+@media (min-width: 475px 640px 768px 1028px 1280px 1536px) {
+    .major-navigation-bar {
+        display: flex;
+    }
+}
+
+@media (min-width: 475px 640px 768px 1028px 1280px 1536px) {
+    .body-container {
+        display: flex;
+    }
+}
+
+@media (min-width: 475px 640px 768px 1028px 1280px 1536px) {
+    .universal-container {
+        display: flex;
+    }
 }
