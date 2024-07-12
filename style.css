@@ -236,7 +236,7 @@
 .body-container {
     display: flex;
     width: 1400px;
-    height: 50em;
+    height: 60em;
     justify-content: space-between;
     background-image: url("images/engr.jpg");
     background-repeat: no-repeat;
