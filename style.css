@@ -337,3 +337,20 @@ input {
         display: flex;
     }
 }
+
+#signature {
+    margin-left: 80%;
+}
+
+.soar {
+    height: 15px;
+    width: 15px;
+    border-radius: 10cm;
+    border: 2px solid black;
+    align-content: center;
+}
+
+img {
+    height: auto;
+    width: 30px;
+}
