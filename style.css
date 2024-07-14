@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     height: 30px;
-    width: 95em;
+    width: 100em;
     background-color: black;
 }
 
@@ -18,7 +18,7 @@
     color: white;
     text-align: center;
     margin-top: 0.5%;
-    margin-left: 12%;
+    margin-left: 11%;
 }
 
 .icons {
@@ -27,7 +27,7 @@
     height: auto;
     width: 250px;
     justify-content: space-around; 
-    margin-right: 11.5%;
+    margin-right: 16%;
 }
 
 .facebook {
@@ -72,7 +72,7 @@
 
 .major-navigation-bar {
     margin-left: 12%;
-    width: 95em;
+    width: 100em;
 }
 
 .address-nav-bar {
@@ -241,6 +241,7 @@
 .body-container {
     display: flex;
     height: 60em;
+    width: 100em;
     justify-content: space-between;
     background-image: url("images/engr.jpg");
     background-repeat: no-repeat;
@@ -276,7 +277,7 @@
     text-align: center;
     margin-top: 12%;
     background-color: black;
-    margin-right: 10%;
+    margin-right: 17%;
     opacity: 0.5;
 }
 
