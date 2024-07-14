@@ -4,7 +4,6 @@
     height: auto;
     background-color: white;
     padding-left: 0.3%;
-    width: 1400px;
 }
 
 .logos-navigation-bar {
@@ -270,9 +269,9 @@
     width: 350px;
     text-align: center;
     margin-top: 12%;
-    margin-right: 17%;
     background-color: black;
     opacity: 0.4;
+    margin-right: 17%;
 }
 
 .header-quote {
@@ -314,32 +313,9 @@ input {
     border-radius: 1cap;
 }
 
-@media (min-width: 475px 640px 768px 1028px 1280px 1536px) {
-    .logos-navigation-bar {
-        display: flex;
-    }
-}
-
-@media (min-width: 475px 640px 768px 1028px 1280px 1536px) {
-    .major-navigation-bar {
-        display: flex;
-    }
-}
-
-@media (min-width: 475px 640px 768px 1028px 1280px 1536px) {
-    .body-container {
-        display: flex;
-    }
-}
-
-@media (min-width: 475px 640px 768px 1028px 1280px 1536px) {
-    .universal-container {
-        display: flex;
-    }
-}
-
 #signature {
-    margin-left: 80%;
+    margin-left: 70%;
+    margin-top: -10%;
 }
 
 .soar {
