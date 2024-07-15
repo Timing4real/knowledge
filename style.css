@@ -2,6 +2,7 @@
 
 .universal-container {
     height: auto;
+    width: 90em;
     background-color: white;
     padding-left: 0.5%;
 }
@@ -10,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     height: 30px;
-    width: 100em;
+    width: 90em;
     background-color: black;
 }
 
@@ -18,16 +19,16 @@
     color: white;
     text-align: center;
     margin-top: 0.5%;
-    margin-left: 11%;
+    margin-left: 10%;
 }
 
 .icons {
     margin-top: 0.5%;
     display: flex;
     height: auto;
-    width: 250px;
+    width: 15em;
     justify-content: space-around; 
-    margin-right: 16%;
+    margin-right: 9%;
 }
 
 .facebook {
@@ -71,8 +72,8 @@
 }
 
 .major-navigation-bar {
-    margin-left: 12%;
-    width: 100em;
+    margin-left: 10%;
+    width: 90em;
 }
 
 .address-nav-bar {
@@ -122,12 +123,12 @@
     height: 80px;
     width: 13em;
     margin-top: 1%;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 
 .phone-nav-bar {
     display: flex;
-    height: 60px;
+    height: 40px;
     width: 180px;
     margin-top: 1%;
     margin-left: -15%;
@@ -143,7 +144,7 @@
 }
 
 .number-box {
-    height: 60px;
+    height: 40px;
     width: 120px; 
     margin-left: 4%;
     margin-top: 2%;
@@ -189,7 +190,7 @@
 
 .links-nav-bar {
     height: 50px;
-    width: 72em;
+    width: 72.5em;
     display: flex;
     justify-content: space-around;
     background-color: yellow;
@@ -241,7 +242,7 @@
 .body-container {
     display: flex;
     height: 60em;
-    width: 100em;
+    width: 90em;
     justify-content: space-between;
     background-image: url("images/engr.jpg");
     background-repeat: no-repeat;
@@ -251,20 +252,20 @@
 
 .the-writings {
     height: 300px;
-    width: 500px;
+    width: 70em;
     margin-left: 12%;
-    margin-top: 18%;
+    margin-top: 16%;
 }
 
 .big-letters {
-    height: 80px;
-    width: 350px;
+    height: 25px;
+    width: 20em;
     color: yellow;
 }
 
 .small-letters {
-    height: 100px;
-    width: 15px;
+    height: 120px;
+    width: 60px;
     float: left;
     margin: 20%;
     shape-outside: circle(50% at 50%);
@@ -272,12 +273,12 @@
 }
 
 .the-quotes {
-    height: 500px;
-    width: 350px;
+    height: 35em;
+    width: 40em;
     text-align: center;
     margin-top: 12%;
     background-color: black;
-    margin-right: 17%;
+    margin-right: 10%;
     opacity: 0.5;
 }
 
@@ -288,32 +289,33 @@
     margin-top: 5%;
     justify-content: space-between;
     color: yellow;
+    margin-left: 6%;
 }
 
 .sub-header {
     height: 40px;
     width: 310px;
-    margin-left: 5%;
+    margin-left: 11%;
     color: white;
 }
 
 input {
-    width: 300px;
-    height: 40px;
+    width: 350px;
+    height: 45px;
     margin-top: 5%;
     border-radius: 0.6cap;
 }
 
 .message {
-    height: 70px;
+    height: 75px;
     text-align: start;
 }
 
 .request {
-    height: 30px;
+    height: 20px;
     width: 200px;
     background-color: yellow;
-    margin-left: 23%;
+    margin-left: 26%;
     margin-top: 5%;
     text-align: center;
     padding-top: 3%;
@@ -321,8 +323,8 @@ input {
 }
 
 #signature {
-    margin-left: 70%;
-    margin-top: -10%;
+    margin-left: 5%;
+    margin-top: -11%;
     color: yellow;
 }
 
