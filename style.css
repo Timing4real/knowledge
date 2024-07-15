@@ -180,7 +180,7 @@
 .content-holder {
     height: 50px;
     width: 10em;
-    margin-top: 8%;
+    margin-top: 11%;
     margin-left: 2%;
 }
 
@@ -207,35 +207,35 @@
 .theme-info {
     width: 15em;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1.5%;
     color: darkgrey;
 }
 
 .blog {
     width: 15em;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1.5%;
     color: darkgrey;
 }
 
 .example {
     width: 15em;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1.5%;
     color: darkgrey;
 }
 
 .viewpro {
     width: 15em;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1.5%;
     color: darkgrey;
 }
 
 .connect {
     width: 15em;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1.5%;
     color: darkgrey;
 }
 
