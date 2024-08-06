@@ -404,6 +404,11 @@ img {
     margin-top: 30%;
   }
 
+  .big-letters {
+    height: 30px;
+    width: 25em;
+  }
+
   .the-quotes {
     margin-top: 25%;
   }
