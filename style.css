@@ -347,7 +347,7 @@ img {
     border-radius: 1cm;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
 
   .universal-container {
     height: 1300px;
@@ -422,7 +422,7 @@ img {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 
     .mobile-icon {
         display: none;
