@@ -245,13 +245,23 @@
 
 .body-container {
     display: flex;
-    height: 610px;
+    height: 650px;
     width: 1298px;
     justify-content: space-around;
     background-image: url("images/engr.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 3cap;
+}
+
+.arrow {
+    height: 470px;
+    width: 270px;
+    margin-top: 4%;
+    margin-left: -5%;
+    transform: rotate(20deg);
+    position: absolute;
+    mix-blend-mode: darken;
 }
 
 .the-writings {
@@ -265,6 +275,7 @@
     height: 25px;
     width: 20em;
     color: yellow;
+    position: relative;
 }
 
 .small-letters {
