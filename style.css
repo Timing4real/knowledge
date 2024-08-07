@@ -256,36 +256,36 @@
 
 .arrow {
     height: 470px;
-    width: 270px;
-    margin-top: 4%;
+    width: 250px;
+    margin-top: 3%;
     margin-left: -5%;
-    transform: rotate(20deg);
+    transform: rotate(25deg);
     position: absolute;
     mix-blend-mode: darken;
 }
 
 .the-writings {
-    height: 280px;
+    height: 200px;
     width: 30em;
     margin-left: 10%;
-    margin-top: 7%;
+    margin-top: 14%;
 }
 
 .big-letters {
-    height: 25px;
+    height: 30px;
     width: 20em;
     color: yellow;
     position: relative;
 }
 
 .small-letters {
-    height: 120px;
-    width: 4em;
+    height: 110px;
+    width: 5em;
     float: left;
-    font-size: larger;
+    font-size: 20pt;
     margin: 20%;
-    shape-outside: circle(50% at 50%);
-    clip-path: circle(50% at 50%);
+    shape-outside: circle(30% at 30%);
+    clip-path: circle(30% at 30%);
 }
 
 .the-quotes {
