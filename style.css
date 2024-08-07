@@ -431,6 +431,10 @@ img {
     margin-top: 5%;
   }
 
+  .arrow {
+    display: none;
+  }
+
   #signature {
     margin-top: -13%;
     margin-left: 2%;
