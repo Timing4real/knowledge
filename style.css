@@ -3,7 +3,6 @@
 .universal-container {
     height: 650px;
     width: 1300px;
-    background-color: white;
     padding-left: 1%;
 }
 
@@ -247,10 +246,10 @@
     display: flex;
     height: 650px;
     width: 1298px;
-    justify-content: space-around;
     background-image: url("images/engr.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: space-around;
     border-radius: 3cap;
 }
 
@@ -361,8 +360,11 @@ img {
 @media (max-width: 640px) {
 
   .universal-container {
-    height: 1300px;
-    width: 1200px;
+    height: 1400px;
+    width: 900px;
+    background-image: url("images/engr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 10%;
     background-color: aqua;
   }
@@ -395,38 +397,41 @@ img {
 
   .major-navigation-bar {
     display: flex;
-    width: 1200px;
-    height: 150px;
+    width: auto;
+    height: 100px;
     margin-left: -1%;
     padding-top: 7%;
     border-radius: 5cm;
     border-style: double;
-    background-color: grey;
+    background-color: black;
     border: 8px solid white;
   }
 
   .links-nav-bar {
     height: 45px;
-    width: 900px;
+    width: 800px;
     position: relative;
   }
 
   .the-writings {
-    margin-top: 30%;
+    margin-top: 10%;
+    margin-left: 30%;
   }
 
   .big-letters {
     height: 30px;
-    width: 25em;
+    width: 20em;
   }
 
   .the-quotes {
-    margin-top: 25%;
+    margin-left: 25%;
+    margin-top: 15%;
   }
 
   .body-container {
-    height: 1500px;
-    width: 1200px;
+    display: inline;
+    height: auto;
+    width: auto;
     border-radius: 1cm;
     margin-top: 5%;
   }
@@ -436,7 +441,7 @@ img {
   }
 
   #signature {
-    margin-top: -13%;
+    margin-top: 10%;
     margin-left: 2%;
   }
 
