@@ -361,7 +361,7 @@ img {
 
   .universal-container {
     height: 1400px;
-    width: 900px;
+    width: 700px;
     background-image: url("images/engr.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -390,42 +390,54 @@ img {
   }
 
   .mobile-icon {
-    height: 50px;
-    width: 50px;
-    margin-left: 5%;
+    height: 40px;
+    width: 40px;
+    margin-left: 0.5%;
   }
 
   .major-navigation-bar {
     display: flex;
     width: auto;
-    height: 100px;
+    height: 80px;
     margin-left: -1%;
-    padding-top: 7%;
+    padding-top: 5%;
     border-radius: 5cm;
     border-style: double;
     background-color: black;
-    border: 8px solid white;
+    border: 10px solid white;
+    border-style: double;
   }
 
   .links-nav-bar {
     height: 45px;
-    width: 800px;
+    width: 600px;
     position: relative;
   }
 
   .the-writings {
     margin-top: 10%;
-    margin-left: 30%;
+    margin-left: 2%;
   }
 
   .big-letters {
-    height: 30px;
-    width: 20em;
+    font-size: 20pt;
+    height: 45px;
+    width: 25em;
   }
+
+  .small-letters {
+    height: 110px;
+    width: 5em;
+    float: left;
+    font-size: 30pt;
+    margin: 28%;
+    shape-outside: circle(30% at 30%);
+    clip-path: circle(30% at 30%);
+}
 
   .the-quotes {
     margin-left: 25%;
-    margin-top: 15%;
+    margin-top: 40%;
   }
 
   .body-container {
@@ -433,7 +445,6 @@ img {
     height: auto;
     width: auto;
     border-radius: 1cm;
-    margin-top: 5%;
   }
 
   .arrow {
@@ -441,7 +452,7 @@ img {
   }
 
   #signature {
-    margin-top: 10%;
+    margin-top: 6%;
     margin-left: 2%;
   }
 
