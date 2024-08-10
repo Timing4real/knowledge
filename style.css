@@ -337,8 +337,14 @@ button {
     margin-top: 5%;
 }
 
-button:hover {
-    background-color: yellowgreen;
+a {
+    position: relative;
+    overflow: visible;
+}
+
+a:hover {
+    background-color: yellow;
+    border: 3px solid white;
 }
 
 #signature {
@@ -480,8 +486,8 @@ img {
   }
 
   button {
-    height: 50px;
-    width: 200px;
+    height: 35px;
+    width: 173px;
     font-size: 11pt;
     font-weight: 900;
     border-radius: 1ch;
@@ -490,8 +496,10 @@ img {
     margin-top: 5%;
   }
 
-  .button:hover {
-    background-color: yellowgreen;
+  .a:hover {
+    background-color: yellow;
+    border: 3px solid white;
+    border-style: groove;
   }
 
   .body-container {
