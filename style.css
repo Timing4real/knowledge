@@ -288,7 +288,7 @@
 }
 
 .the-quotes {
-    height: 500px;
+    height: 520px;
     width: 400px;
     text-align: center;
     margin-top: 7%;
@@ -326,15 +326,19 @@ input {
     width: 350px;
 }
 
-.request {
-    height: 30px;
-    width: 13em;
+button {
+    height: 50px;
+    width: 200px;
+    font-size: 11pt;
+    font-weight: 900;
+    border-radius: 1ch;
     background-color: yellow;
-    margin-left: 26%;
+    margin-left: 3%;
     margin-top: 5%;
-    text-align: center;
-    padding-top: 3%;
-    border-radius: 0.6cap;
+}
+
+button:hover {
+    background-color: yellowgreen;
 }
 
 #signature {
@@ -360,7 +364,7 @@ img {
 @media (max-width: 640px) {
 
   .universal-container {
-    height: 1400px;
+    height: 1410px;
     width: 700px;
     background-image: url("images/engr.jpg");
     background-repeat: no-repeat;
@@ -417,6 +421,7 @@ img {
   .the-writings {
     margin-top: 10%;
     margin-left: 2%;
+    margin-bottom: 40%;
   }
 
   .big-letters {
@@ -433,11 +438,60 @@ img {
     margin: 28%;
     shape-outside: circle(30% at 30%);
     clip-path: circle(30% at 30%);
-}
+  }
 
   .the-quotes {
-    margin-left: 25%;
-    margin-top: 40%;
+    padding-top: 0.1%;
+    margin-left: 15%;
+    width: 500px;
+    height: 580px;
+    opacity: 1;
+  }
+
+  .header-quote {
+    height: 70px;
+    margin-left: 10%;
+    font-size: 20pt;
+  }
+
+  .sub-header {
+    height: 60px;
+    margin-left: 10%;
+    margin-top: -3%;
+    font-size: 15pt;
+  }
+
+  input {
+    width: 450px;
+    font-size: 10pt;
+    font-style: oblique;
+    font-weight: 900;
+    border-radius: 1.5ch;
+  }
+
+  .message {
+    font-size: 12pt;
+    font-style: oblique;
+    font-weight: bolder;
+    height: 70px;
+    width: 450px;
+    margin-top: 5%;
+    border-radius: 1.5ch;
+  }
+
+  button {
+    height: 50px;
+    width: 200px;
+    font-size: 11pt;
+    font-weight: 900;
+    border-radius: 1ch;
+    background-color: yellow;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+
+  .button:hover {
+    background-color: yellowgreen;
   }
 
   .body-container {
@@ -463,5 +517,23 @@ img {
     .mobile-icon {
         display: none;
     }
+
+    input {
+        width: 370px;
+        font-size: 10pt;
+        font-style: oblique;
+        font-weight: 900;
+        border-radius: 1.5ch;
+      }
+    
+      .message {
+        font-size: 12pt;
+        font-style: oblique;
+        font-weight: bolder;
+        height: 70px;
+        width: 370px;
+        margin-top: 5%;
+        border-radius: 1.5ch;
+      }
     
 }
