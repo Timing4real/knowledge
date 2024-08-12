@@ -254,13 +254,13 @@
 }
 
 .arrow {
-    height: 470px;
-    width: 250px;
+    height: 480px;
+    width: 170px;
     margin-top: 3%;
-    margin-left: -5%;
-    transform: rotate(25deg);
+    margin-left: -7%;
+    transform: rotate(28deg);
     position: absolute;
-    mix-blend-mode: darken;
+    mix-blend-mode: darken
 }
 
 .the-writings {
